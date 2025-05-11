@@ -51,3 +51,13 @@ a:visied {
   text-decoration: none;
   color: black;
 }
+
+footer {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+footer .fb-icon-wrap p {
+  font-size: 24px;
+}
