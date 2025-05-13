@@ -1,0 +1,26 @@
+header h2 {
+  font-size: 2rem;
+  margin: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+header h2,
+section p {
+  margin: 24px;
+}
+
+section p {
+  text-indent: 2rem;
+}
+
+figure {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figure img {
+  border-radius: 16px;
+  max-width: 90%;
+}

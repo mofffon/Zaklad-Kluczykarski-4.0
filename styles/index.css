@@ -1,22 +1,8 @@
-main {
-  margin: 16px;
-}
-
-main hr {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
 main h1 {
+  font-size: 2rem;
   margin: 24px;
   font-weight: 600;
   text-align: center;
-}
-
-main p {
-  font-size: larger;
-  line-height: 1.7;
-  font-weight: 400;
 }
 
 main h2 {
