@@ -23,7 +23,8 @@
     />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/main-media-queries.css" />
-    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/contact-media-queries.css" />
   </head>
   <body>
     <div class="container">
@@ -36,42 +37,48 @@
       </nav>
 
       <header>
-        <h2>
-          Zakład kluczykarski w Olkuszu na K.K. Wielkiego 24, krótko o nas.
-        </h2>
+        <h2>Nasz adres. Godziny Otwarcia.</h2>
       </header>
       <hr />
-      <section>
-        <p>
-          Jesteśmy firmą z Olkusza, która istnieje od połowy lat 90'tych
-          dwudziestego wieku. Nasz założyciel, kiedy otwierał firmę, miał już
-          wieloletnie doświadczenie w pracy zegarmistrzowskiej i ślusarskiej.
-          Firmę otworzył po przemianach ustrojowych w Polsce. Od początku
-          towarzyszył nam duch przedsiębiorczości i duża pracowitość.
-        </p>
-        <p>
-          Jesteśmy firmą rodzinną i wiedzę, doświadczenie i knowhow są u nas
-          przekazywane z pokolenia na pokolenie. W trosce o świadczenie
-          najwyższej klasy usług i dobro naszych klientów, staramy się szkolić i
-          zgłębiać wiedzę z różnych źródeł. Uczestniczymy w spotkaniach
-          branżowych, targach i często prywatnie spotykamy się z innymi
-          fachowcami celem wymiany doświadczeń.
-        </p>
-        <figure class="workshop-entrance">
-          <img
-            src="./images/workshop-entrence.jpg"
-            alt="Wejście do wrsztatu Kluczykarskiego"
-          />
-          <figcaption>Fot. Wejście do naszego warsztatu w Olkuszu.</figcaption>
-        </figure>
-        <p>
-          W czasie wolnym od pracy chętnie oddajemy się naszym pasjom. Chętnie
-          jeździmy na rowerze. Mamy na naszym koncie wycieczkę z Olkusza nad
-          Bałtyk. Często można nas spotkać na trasach rowerowych w okolicy.
-          Chodzimy też na wycieczki piesze zorganizowane, ale też na te bardziej
-          spontaniczne. Nie straszna nam pogoda i pory roku. Zawsze znajdzie się
-          powód, żeby ruszyć się z domu.
-        </p>
+      <section class="contact-container">
+        <div class="contact-left">
+          <p><strong>Adres:</strong></p>
+          <p>Olkusz</p>
+          <p>"Skarbek" na parterze</p>
+          <p>ul. K. K. Wielkiego 24, 32-300</p>
+          <p><strong>Godziny otwarcia:</strong></p>
+          <p>pon - pt: 9:00 - 17:00</p>
+          <p>sob: 9:00 - 13:00</p>
+          <a href="tel:042508662339"><p>Tel: 042-508-662-339</p></a>
+          <div class="buttons">
+            <a href="tel:042508662339" class="btn">Dzwonię</a>
+            <form
+              action="https://maps.google.com/maps"
+              method="get"
+              target="_blank"
+              class="contact-form"
+            >
+              <input hidden type="text" name="saddr" />
+              <input
+                hidden
+                type="hidden"
+                name="daddr"
+                value="ul. K. K. Wielkiego 24, 32-300"
+              />
+              <button type="submit" class="btn">Jak dojadę</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-right">
+          <iframe
+            class="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1516.1209839518976!2d19.56527059298127!3d50.2769667067826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716e37f2c18ee1d%3A0x7ffc47a22e3d107b!2sDORABIANIE%20KLUCZY%20-%20ZEGARMISTRZ!5e0!3m2!1spl!2spl!4v1659284398700!5m2!1spl!2spl"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
 
       <footer>
