@@ -1,0 +1,13 @@
+.main-container section h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.accordion-button {
+  font-size: 22px;
+}
+
+.accordion-body {
+  display: block;
+  font-size: 20px;
+}
