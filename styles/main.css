@@ -8,15 +8,25 @@
   font-size: 16px;
 }
 
-html {
+body {
   background-color: #00a2e8;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: yellow;
+}
+
+html {
   font-family: "Poppins", sans-serif;
 }
 
 .main-container {
   max-width: 1400px;
   margin: auto;
-  background-color: white;
+  background-color: #00a2e8;
 }
 
 nav {
@@ -55,6 +65,11 @@ a {
 a:visied {
   text-decoration: none;
   color: black;
+}
+
+.contact-tel {
+  font-size: inherit;
+  color: red;
 }
 
 header h2 {
