@@ -9,7 +9,15 @@
 
   nav .nav-btn {
     margin: 2px 0;
-    width: 98%;
+    width: 100%;
+  }
+
+  .services {
+    justify-content: center;
+  }
+
+  .service-card {
+    max-width: 440px;
   }
 
   footer {
